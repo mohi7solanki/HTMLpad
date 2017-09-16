@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code Player</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			HTMLpad
+		</div>
+		<div id="buttonContainer">
+			<div class="toggleButton active" id="html">HTML</div>
+			<div class="toggleButton" id="css">CSS</div>
+			<div class="toggleButton" id="js">JavaScript</div>
+			<div class="toggleButton active" id="output">Output</div>
+		</div>
+	</div>
+	<div id="bodyContainer">
+		<textarea id="htmlPanel" placeholder="HTML code goes here" class="panel"></textarea>
+		<textarea id="cssPanel" placeholder="CSS code goes here" class="panel hidden"></textarea>
+		<textarea id="jsPanel" placeholder="JavaScript code goes here" class="panel hidden"></textarea>
+		<iframe id="outputPanel" class="panel"></iframe>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

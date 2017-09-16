@@ -1,0 +1,77 @@
+body {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#logo {
+	position: relative;
+	top: 7px;
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 160%;
+}
+
+#header {
+	width: 100%;
+	height: 42px;
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+
+#buttonContainer {
+	position: relative;
+	top: 2px;
+	left: 25px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.toggleButton {
+	float: left;
+	border: 1px solid grey;
+	border-right: none;
+	padding: 8px;
+}
+
+#html {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+#output {
+	border-right: 1px solid grey;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.active {
+	background-color: #ccfff5;
+}
+
+.highlighted {
+	background-color: grey;
+}
+
+textarea {
+	border-top: none;
+	border-bottom: none;
+	resize: none;
+	padding: 10px 7px;
+}
+
+.panel {
+	width: 50%;
+	float: left;
+	border-left: none;
+}
+
+iframe {
+	border: none;
+	padding-left:5px;
+}
+
+.hidden {
+	display: none;
+}
